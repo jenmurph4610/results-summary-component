@@ -172,15 +172,19 @@ button:hover {
     }
     main {
         display: flex;
-        border-radius: 26px;    
+        border-radius: 26px;
+        min-width: none;
+        max-width: 900px;
     }
     
     #results-box {
         padding: 24px 57px 40px 57px;
         border-radius: 26px;
+        width: 50%;
     }
     #summary-box {
         border-top-right-radius: 26px;
         border-bottom-right-radius: 26px;
+        width: 50%;
     }
 }
