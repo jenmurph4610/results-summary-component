@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
 body {
-    /*background-color: #ECF2FF;*  this one for larger than mobile*/
-    background-color: white;
+    background-color: #ECF2FF;
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -15,8 +14,9 @@ body {
 
 main {
     width: 100%;
-    max-width: 375px;
+    max-width: 550px;
     min-width: 250px;
+    background-color: white;
 
 }
 
@@ -164,4 +164,23 @@ h2 {
 
 button:hover {
     background: linear-gradient(to bottom, #7857ff 0%, #6842ff 100%, #2e2be9 100%);
+}
+
+@media screen and (min-width: 551px) {
+    body {
+        background-color: #ECF2FF;
+    }
+    main {
+        display: flex;
+        border-radius: 26px;    
+    }
+    
+    #results-box {
+        padding: 24px 57px 40px 57px;
+        border-radius: 26px;
+    }
+    #summary-box {
+        border-top-right-radius: 26px;
+        border-bottom-right-radius: 26px;
+    }
 }
