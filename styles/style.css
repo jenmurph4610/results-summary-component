@@ -1,0 +1,96 @@
+/*style.css starter file*/ 
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    background-color: #ECF2FF;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#results-box {
+    background: rgb(119,85,255);
+    background: linear-gradient(180deg, rgba(119,85,255,1) 0%, rgba(105,67,255,1) 35%, rgba(47,44,233,1) 100%); 
+    color: #CAC9FF;
+}
+
+#rating-text, #compliment-text {
+    color: white;
+}
+
+#rating-text {
+    font-weight: 800;
+    font-size: 72px;
+}
+#max-rating-text {
+    opacity: 52%;
+}
+
+#compliment-text {
+    font-size: 32px;
+}
+
+#evaluation-text {
+    font-weight: 500;
+}
+
+#summary-box {
+    background-color: white;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+#summary-box p {
+    color: #303B59;
+    font-weight: 700;
+}
+
+#summary-box span {
+    opacity: 50%;
+}
+
+#summary-box div:nth-child(2) {
+    color: #FF5555;
+    background-color: hsl(0, 100%, 95%);
+  }
+
+  #summary-box div:nth-child(3) {
+    color: hsla(39, 100%, 56%, 1);
+    background-color: hsl(39, 100%, 95%);
+  }
+
+  #summary-box div:nth-child(4) {
+    color: hsla(166, 100%, 37%, 1);
+    background-color: hsl(166, 100%, 95%);
+  }
+
+  #summary-box div:nth-child(5) {
+    color: hsla(234, 85%, 45%, 1);
+    background-color: hsl(234, 85%, 95%);
+  }
+
+  img {
+    height: 20px;
+    width: 20px;
+  }
+
+  button {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 129px;
+    height: 56px;
+    background: hsla(223, 30%, 27%, 1);
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #7857ff 0%, #6842ff 100%, #2e2be9 100%);
+}
