@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
 body {
-    background-color: #ECF2FF;
+    /*background-color: #ECF2FF;*  this one for larger than mobile*/
+    background-color: white;
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -36,7 +37,7 @@ h1 {
     background: rgb(119,85,255);
     background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
     color: #CAC9FF;
-    padding: 40px 50px;
+    padding: 24px 57px 40px 57px;
     border-bottom-left-radius: 26px;
     border-bottom-right-radius: 26px;
 }
@@ -81,11 +82,31 @@ h1 {
 
 #summary-box {
     background-color: white;
+    padding: 30px;
+}
+
+#summary-box h1 {
+    align-self: flex-start;
 }
 
 h2 {
     font-size: 1em;
     font-weight: 500;
+    margin-right: 15px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 16px;
+    border-radius: 12px;
+    height: 56px;
+    width: 100%;
+}
+
+.category div {
+    display: flex;
 }
 
 .category p {
@@ -100,26 +121,33 @@ h2 {
 #summary-box div:nth-child(2) {
     color: #FF5555;
     background-color: hsl(0, 100%, 95%);
+    margin-top: 24px;
+    margin-bottom: 16px;
   }
 
   #summary-box div:nth-child(3) {
     color: hsla(39, 100%, 56%, 1);
     background-color: hsl(39, 100%, 95%);
+    margin-bottom: 16px;
   }
 
   #summary-box div:nth-child(4) {
     color: hsla(166, 100%, 37%, 1);
     background-color: hsl(166, 100%, 95%);
+    margin-bottom: 16px;
   }
 
   #summary-box div:nth-child(5) {
     color: hsla(234, 85%, 45%, 1);
     background-color: hsl(234, 85%, 95%);
+    margin-bottom: 24px;
   }
 
   img {
     height: 20px;
     width: 20px;
+    margin-right: 15px;
+    
   }
 
   button {
@@ -131,6 +159,7 @@ h2 {
     border-radius: 129px;
     height: 56px;
     background: hsla(223, 30%, 27%, 1);
+    width: 100%;
 }
 
 button:hover {
