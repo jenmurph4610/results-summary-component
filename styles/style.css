@@ -169,6 +169,7 @@ button:hover {
 @media screen and (min-width: 551px) {
     body {
         background-color: #ECF2FF;
+        font-size: 18px;
     }
     main {
         display: flex;
@@ -178,13 +179,48 @@ button:hover {
     }
     
     #results-box {
-        padding: 24px 57px 40px 57px;
+        padding: 38px 54px 46px 54px;
         border-radius: 26px;
         width: 50%;
     }
+    
+    h1 {
+        font-size: 24px;
+    }
+
+    #round-area {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-top: 35px;
+        margin-bottom: 28px;
+    }
+
+    #rating-text {
+        font-size: 72px;
+    }
+
+    #compliment-text {
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+
     #summary-box {
         border-top-right-radius: 26px;
         border-bottom-right-radius: 26px;
         width: 50%;
+        padding: 38px 40px 46px 40px;
     }
+
+    .category {
+        min-width: 222px;
+    }
+
+    #summary-box div:nth-child(2) {
+        margin-top: 28px;
+      }
+    
+      #summary-box div:nth-child(5) {
+        margin-bottom: 41px;
+      }
 }
