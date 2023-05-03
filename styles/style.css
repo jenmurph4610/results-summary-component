@@ -166,6 +166,15 @@ button:hover {
     background: linear-gradient(to bottom, #7857ff 0%, #6842ff 100%, #2e2be9 100%);
 }
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-top: 5px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
 @media screen and (min-width: 551px) {
     body {
         background-color: #ECF2FF;
